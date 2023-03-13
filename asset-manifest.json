@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/missmone/static/css/main.b7d004a3.css",
-    "main.js": "/missmone/static/js/main.b5706bc4.js",
+    "main.js": "/missmone/static/js/main.982537b6.js",
     "static/js/787.080441ca.chunk.js": "/missmone/static/js/787.080441ca.chunk.js",
     "index.html": "/missmone/index.html",
     "main.b7d004a3.css.map": "/missmone/static/css/main.b7d004a3.css.map",
-    "main.b5706bc4.js.map": "/missmone/static/js/main.b5706bc4.js.map",
+    "main.982537b6.js.map": "/missmone/static/js/main.982537b6.js.map",
     "787.080441ca.chunk.js.map": "/missmone/static/js/787.080441ca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b7d004a3.css",
-    "static/js/main.b5706bc4.js"
+    "static/js/main.982537b6.js"
   ]
 }
