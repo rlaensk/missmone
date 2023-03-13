@@ -1,0 +1,364 @@
+let data4=[
+    {
+    id:0,
+    imgUrl:'/img/fu1.png',
+    title:'블랑드 쉐비 라탄 패브릭 1인 소파',
+    price:'590,000won'
+    },
+    {
+    id:1,
+    imgUrl:'/img/fu2.png',
+    title:'지아니 화이트 쉐비 벽걸이 디쉬랙',
+    price:'360,000won'
+    },
+    {
+    id:2,
+    imgUrl:'/img/fu3.png',
+    title:'버드 철제 3단 바스켓 화분 스탠드 선반',
+    price:'148,000won'
+    },
+    {
+    id:3,
+    imgUrl:'/img/fu4.png',
+    title:'아뜰리에 빈티지 철제 프레임 가든 테이블',
+    price:'290,000won'
+    },
+    {
+    id:4,
+    imgUrl:'/img/fu5.png',
+    title:'베르나 쉐비 화이트 인테리어 디쉬랙 벽걸이 선반',
+    price:'240,000won'
+    },
+    {
+    id:5,
+    imgUrl:'/img/fu6.png',
+    title:'워시드 쉐비 원목 빈티지 철제 베란다 티테이블',
+    price:'268,000won'
+    },
+    {
+    id:6,
+    imgUrl:'/img/fu7.png',
+    title:'구스타브 엔틱 원목 벽장식 3단 구슬 선반 빈티지',
+    price:'350,000won'
+    },
+    {
+    id:7,
+    imgUrl:'/img/fu8.png',
+    title:'홈앤가든 원목 발코니 행잉 다육이 화분 진열대',
+    price:'23,500won'
+    },
+    {
+    id:8,
+    imgUrl:'/img/fu9.png',
+    title:'디오네 프렌치 북유럽 우드 엔틱 빈티지 화이트 장식',
+    price:'289,000won'
+    },
+    {
+    id:9,
+    imgUrl:'/img/fu10.png',
+    title:'안젤로 쉐비 화이트 원목 벤치 인테리어 수납장',
+    price:'540,000won'
+    },
+    {
+    id:10,
+    imgUrl:'/img/fu11.png',
+    title:'블랑드 프렌치 쉐비 1인 2인 스튤 베드 벤치',
+    price:'290,000won'
+    },
+    {
+    id:11,
+    imgUrl:'/img/fu12.png',
+    title:'쉐비 빈티지 4단 베란다 발코니 인테리어 화분 진열대',
+    price:'159,000won'
+    },
+    {
+    id:12,
+    imgUrl:'/img/fu13.png',
+    title:'마르세유 화이트 빈티지 철제 야외 카페의자',
+    price:'169,000won'
+    },
+    {
+    id:13,
+    imgUrl:'/img/fu14.png',
+    title:'폴딩 프렌치 버드 데코 3단 사각 발코니 화분 진열대',
+    price:'169,000won'
+    },
+    {
+    id:14,
+    imgUrl:'/img/fu15.png',
+    title:'베르나 프렌치 쉐비 화이트 대형 인테리어 빈티지 수입 벽거울',
+    price:'250,000won'
+    },
+    {
+    id:15,
+    imgUrl:'/img/fu16.png',
+    title:'아뜰리에 프렌치 빈티지 철제 프레임 데이 베드 벤치',
+    price:'850,000won'
+    },
+    {
+    id:16,
+    imgUrl:'/img/fu17.png',
+    title:'안젤로 쉐비 화이트 원목 미니 스툴 의자',
+    price:'160,000won'
+    },
+    {
+    id:17,
+    imgUrl:'/img/fu18.png',
+    title:'메달리온 천정 벽 마감 데코 샹들리에 우레탄 몰딩 인테리어 장식',
+    price:'29,000won'
+    },
+    {
+    id:18,
+    imgUrl:'/img/fu19.png',
+    title:'마르쉐 디스트레스드 벽난로 원목 장식장',
+    price:'169,000won'
+    },
+    {
+    id:19,
+    imgUrl:'/img/fu20.png',
+    title:'베르나 쉐비 프렌치 쿠션 원목 수납 벤치',
+    price:'590,000won'
+    },
+    {
+    id:20,
+    imgUrl:'/img/fu21.png',
+    title:'프로방스 빈티지 철제 접이식 야외 테이블 세트',
+    price:'259,000won'
+    },
+    {
+    id:21,
+    imgUrl:'/img/fu22.png',
+    title:'브릴란트 초대형 엔틱 골드 스탠딩 촛대',
+    price:'258,000won'
+    },
+    {
+    id:22,
+    imgUrl:'/img/fu23.png',
+    title:' 브누아 네추럴 워시우드 철제 아치 프레임 선반',
+    price:'339,000won'
+    },
+    {
+    id:23,
+    imgUrl:'/img/fu24.png',
+    title:'가든 엔틱 원목 주물 장식 브라켓 & 선반',
+    price:'19,000won'
+    },
+    {
+    id:24,
+    imgUrl:'/img/fu25.png',
+    title:'프렌치 엔틱 아치 벽거울',
+    price:'99,000won'
+    },
+    {
+    id:25,
+    imgUrl:'/img/fu26.png',
+    title:'블랑드 쉐비 라탄 체어',
+    price:'290,000won'
+    },
+    {
+    id:26,
+    imgUrl:'/img/fu27.png',
+    title:'루이 프렌치 엔틱 화이트 우드 2단 오픈 콘솔 ',
+    price:'399,000won'
+    },
+    {
+    id:27,
+    imgUrl:'/img/fu28.png',
+    title:'사슴 장식 엔틱 철제 행거',
+    price:'99,000won'
+    },
+    {
+    id:28,
+    imgUrl:'/img/fu29.png',
+    title:'베르나 쉐비 화이트 우드 4단 매거진랙 ',
+    price:'290,000won'
+    },
+    {
+    id:29,
+    imgUrl:'/img/fu30.png',
+    title:'램브란트 빈티지 골드 아치 대형 전신거울 ',
+    price:'490,000won'
+    },
+    {
+    id:30,
+    imgUrl:'/img/fu31.png',
+    title:' 베르나 서랍 오픈 장식장 책장 그릇장 선반',
+    price:'750,000won'
+    },
+    {
+    id:31,
+    imgUrl:'/img/fu32.png',
+    title:'프렌치 블랑 빈티지 철제 화이트 가든 2인용 벤치 ',
+    price:'19,000won'
+    },
+    {
+    id:32,
+    imgUrl:'/img/fu33.png',
+    title:' 카스텔 랜턴 샹들리에 촛대 행잉 장식 ',
+    price:'99,000won'
+    },
+    {
+    id:33,
+    imgUrl:'/img/fu34.png',
+    title:'벨몽 골드 아치 철제 인테리어 벽거울',
+    price:'99,000won'
+    },
+    {
+    id:34,
+    imgUrl:'/img/fu35.png',
+    title:'라비에르 카페 비스트로 체어 & 테이블  ',
+    price:'279,000won'
+    },
+    {
+    id:35,
+    imgUrl:'/img/fu36.png',
+    title:'앙투안 엔틱 테이블 스탠드 거울 & 벽거울 ',
+    price:'27,900won'
+    },
+    {
+    id:36,
+    imgUrl:'/img/fu37.png',
+    title:'소피 빈티지 우드 사각 가든 테이블 ',
+    price:'168,000won'
+    },
+    {
+    id:37,
+    imgUrl:'/img/fu38.png',
+    title:' 블랑쉬 빈티지 우드 철제 장식 4단 파티션',
+    price:'580,000won'
+    },
+    {
+    id:38,
+    imgUrl:'/img/fu39.png',
+    title:'LE JARDIN 프렌치 가든 아치 격자 장식물  ',
+    price:'159,000won'
+    },
+    {
+    id:39,
+    imgUrl:'/img/fu40.png',
+    title:'브론즈 골든 아치 빈티지 프레임 거울 ',
+    price:'199,000won'
+    },
+    {
+    id:40,
+    imgUrl:'/img/fu41.png',
+    title:' 쟈뎅 쉐비 랜턴 캔들 홀더',
+    price:'119,000won'
+    },
+    {
+    id:41,
+    imgUrl:'/img/fu42.png',
+    title:'쟈뎅 철제 오발 트레이 접이식 테이블 ',
+    price:'99,000won'
+    },
+    {
+    id:42,
+    imgUrl:'/img/fu43.png',
+    title:'마들렌 빈티지 원목 벽걸이 선반 ',
+    price:'59,000won'
+    },
+    {
+    id:43,
+    imgUrl:'/img/fu44.png',
+    title:'브리티쉬 빈티지 인테리어 철제 벽선반 ',
+    price:'79,000won'
+    },
+    {
+    id:44,
+    imgUrl:'/img/fu45.png',
+    title:' 빈티지 우드 프레임 대형 랜턴 세트  ',
+    price:'290,000won'
+    },
+    {
+    id:45,
+    imgUrl:'/img/fu46.png',
+    title:'블랑 피렌체 레트로 철제 화이트 벤치',
+    price:'299,000won'
+    },
+    {
+    id:46,
+    imgUrl:'/img/fu47.png',
+    title:'스칼롭 프로방스 철제 트레이 테이블 ',
+    price:'119,000won'
+    },
+    {
+    id:47,
+    imgUrl:'/img/fu48.png',
+    title:'상파뉴 엔틱 금장 장식 벽거울',
+    price:'22,900won'
+    },
+    {
+    id:48,
+    imgUrl:'/img/fu49.png',
+    title:'아르누보 앤틱 실버 우드 프레임 벽거울',
+    price:'159,000won'
+    },
+    {
+    id:49,
+    imgUrl:'/img/fu50.png',
+    title:'이네스 엔틱 빈티지 인테리어 벽거울',
+    price:'179,000won'
+    },
+    {
+    id:50,
+    imgUrl:'/img/fu51.png',
+    title:'스칼롭 프렌치 가든 철제 아치 격자 장식물 ',
+    price:'249,000won'
+    },
+    {
+    id:51,
+    imgUrl:'/img/fu52.png',
+    title:'프레임리스 씬 디자인 벽거울 9가지  ',
+    price:'39,000won'
+    },
+    {
+    id:52,
+    imgUrl:'/img/fu53.png',
+    title:' 누아르2 블랙 인테리어 벽거울',
+    price:'99,000won'
+    },
+    {
+    id:53,
+    imgUrl:'/img/fu54.png',
+    title:'오브제 브라스 원형 인테리어 벽거울',
+    price:'99,000won'
+    },
+    {
+    id:54,
+    imgUrl:'/img/fu55.png',
+    title:'하이엔드 크리스탈 벽거울',
+    price:'199,000won'
+    },
+    {
+    id:55,
+    imgUrl:'/img/fu56.png',
+    title:'빌라드 프렌치 철제 캔들 글라스 박스 ',
+    price:'139,000won'
+    },
+    {
+    id:56,
+    imgUrl:'/img/fu57.png',
+    title:'다뉴브 프렌치 화이트 이젤 장식 ',
+    price:'135,000won'
+    },
+    {
+    id:57,
+    imgUrl:'/img/fu58.png',
+    title:' 디아나 골드 우드 프레임 벽거울 ',
+    price:'190,000won'
+    },
+    {
+    id:58,
+    imgUrl:'/img/fu59.png',
+    title:' 플뢰르 빈티지 철제 아치 프레임 미니 벽거울 ',
+    price:'119,000won'
+    },
+    {
+    id:59,
+    imgUrl:'/img/fu60.png',
+    title:'파비안 화이트 우드 벽난로 선반 장식장',
+    price:'290,000won'
+    }
+    ]
+
+export default data4;
