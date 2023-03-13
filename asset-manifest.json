@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/missmone/static/css/main.b7d004a3.css",
-    "main.js": "/missmone/static/js/main.25a70ec5.js",
+    "main.js": "/missmone/static/js/main.43e3fea7.js",
     "static/js/787.080441ca.chunk.js": "/missmone/static/js/787.080441ca.chunk.js",
     "static/media/data4": "/missmone/static/media/data4.3cfcc47bb31931a13176",
     "index.html": "/missmone/index.html",
     "main.b7d004a3.css.map": "/missmone/static/css/main.b7d004a3.css.map",
-    "main.25a70ec5.js.map": "/missmone/static/js/main.25a70ec5.js.map",
+    "main.43e3fea7.js.map": "/missmone/static/js/main.43e3fea7.js.map",
     "787.080441ca.chunk.js.map": "/missmone/static/js/787.080441ca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b7d004a3.css",
-    "static/js/main.25a70ec5.js"
+    "static/js/main.43e3fea7.js"
   ]
 }
